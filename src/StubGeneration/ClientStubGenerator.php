@@ -34,8 +34,6 @@ class ClientStubGenerator
     /**
      * @var Inflector
      */
-    private $inflector;
-
     private Inflector $inflector;
 
     public function __construct(PhpConverter $phpConverter, NamingStrategy $namingStrategy, bool $unwrapReturn = false, array $baseNs = [])
